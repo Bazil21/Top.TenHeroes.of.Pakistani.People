@@ -56,24 +56,16 @@ header .banner{
 header.sticky .banner{
     opacity: 0.5;
 }
-header .logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 80px;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    transition: 1s;
-    text-decoration: none;
-    z-index: 1;
-}
+
 header.sticky #title{
-    position: absolute;
+    /* position: absolute;
     font-size: 3em;
     left: 40px;
     top: 50px;
-    transform: translate(0,-50%);
+    transform: translate(0,-50%); */
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
 }
 nav{
     position: relative;
@@ -115,11 +107,12 @@ section{
 @media (max-width: 991px){
 
     header{
-        padding: 40px;
+        padding: 10px;
     }
     header.sticky .banner{
         left: 0;
         opacity: 0;
+        height: 50%;
     }
     nav ul{
         display: none;
@@ -151,17 +144,20 @@ section{
         width: 50px;
         height: 50px;
         cursor: pointer;
-        background: #fff url(icons/menu.png);
+        background:transparent;
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
+        display: none;
     }
     header.sticky .toggle.active{
-        background: #fff url(icons/close.png);
+        background: transparent;
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
+        display: none;
     }
+    
 }
 #title{
     position: relative;
@@ -169,9 +165,10 @@ section{
     text-transform: uppercase;
     font-size: 70px;
     letter-spacing: 4px;
+    margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
+    background: linear-gradient(90deg, rgb(17, 10, 10), #fff, rgb(65, 65, 65));
     background-repeat: no-repeat;
     background-size: 80%;
     animation: animate 3s linear infinite;
@@ -194,9 +191,12 @@ background: #aa96da;
 box-shadow:  37px 37px 100px #cabbe9,
              -37px -37px 100px #cabbe9;
 }
-.section2{
-    border-radius: 70px;
-    background: linear-gradient(145deg, #e72f2f, #c22828);
-    box-shadow:  6px 6px 12px #841b1b,
-                 -6px -6px 12px #ff3d3d;
+.number{
+    display: inline-block;
+    width: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #a8d8ea;
+    border: 1px solid black;
+    border-radius: 100px;
 }
