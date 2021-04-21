@@ -5,7 +5,7 @@ Mostly People watch Movies and see their a Hero, Hero is the Main Role of Movie 
 2. Dr. Allama Mohammad Iqbal
 3. Dr. Abdul Qadeer Khan
 4. Nawabzada Liaquat Ali Khan
-5. Samar Mubarak Mand 
+5. Choudhry Rahmat Ali
 6. Fatima Jinnah
 7. Abdus Sattar Edhi
 8. Dr. Abdus Salam 
