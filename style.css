@@ -13,12 +13,11 @@ hr{
    
     border-style: none;
     border-top-style: dotted;
-    width: 30%;
+    width: 20%;
     border-width: 10px;
     margin: 0 auto;
-    color:#e72f2f;
+    color:#700000;
     background-color: transparent;
-    overflow: hidden;
 }
 header{
     position: fixed;
@@ -168,10 +167,10 @@ section{
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    background: linear-gradient(90deg, rgb(17, 10, 10), #fff, rgb(65, 65, 65));
+    background: linear-gradient(90deg, rgba(9, 71, 3, 0.877), #fff, rgb(0, 124, 0));
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 3s linear infinite;
+    animation: animate 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
@@ -187,9 +186,9 @@ section{
 
 .section1{
     border-radius: 77px;
-background: #aa96da;
-box-shadow:  37px 37px 100px #cabbe9,
-             -37px -37px 100px #cabbe9;
+background: #8ad3eed0;
+box-shadow:  37px 37px 100px #8d89897e,
+             -37px -37px 100px #91919479;
 }
 .number{
     display: inline-block;
@@ -197,6 +196,5 @@ box-shadow:  37px 37px 100px #cabbe9,
     font-weight: bolder;
     font-style: italic;
     background-color: #a8d8ea;
-    border: 1px solid black;
-    border-radius: 100px;
+    border-bottom: 2px solid black;
 }
