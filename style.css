@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
 body{
     min-height: 1000px;
@@ -35,7 +36,7 @@ header{
 .para{
     text-align: justify;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 30px;
 }
 header.sticky{
     height: 80px;
@@ -57,11 +58,6 @@ header.sticky .banner{
 }
 
 header.sticky #title{
-    /* position: absolute;
-    font-size: 3em;
-    left: 40px;
-    top: 50px;
-    transform: translate(0,-50%); */
     width: 100%;
     text-align: center;
     font-size: 3em;
